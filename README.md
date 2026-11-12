@@ -20,14 +20,17 @@ It exists to check how a hosted Git service handles two kinds of ref update:
 ## What is here
 
 - `main` holds this file, the licence and the notice.
-- Branches named `case-*` and refs under `refs/attempts/` are left by test
-  runs. Each records the end state of one check. They carry no other meaning
-  and may be removed at any time.
+- Branches named `case-*` and refs under `refs/attempts/` and
+  `refs/synapse/attempts/` are left by test runs. Each records the end state
+  of one check. They carry no other meaning and may be removed at any time.
 
 ## Status
 
-Test material. Nothing here is released, versioned or supported. Issues and
-pull requests are not monitored.
+This repository is kept. It stays available for tests and experiments with
+Git ref updates.
+
+It is test material: nothing here is released, versioned or supported. Issues
+and pull requests are not monitored.
 
 ## Contact
 
